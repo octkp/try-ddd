@@ -1,0 +1,15 @@
+{
+    "name": "takano_y/try-ddd",
+    "autoload": {
+        "psr-4": {
+            "TakanoY\\TryDdd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "octkp",
+            "email": "takano_y@kokopelli-inc.com"
+        }
+    ],
+    "require": {}
+}
