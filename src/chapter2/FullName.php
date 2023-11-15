@@ -8,6 +8,16 @@ final readonly class FullName
 		private string $lastName
 	) { }
 	
+	public function getFirstName(): string
+	{
+		return $this->firstName;
+	}
+	
+	public function getLastName(): string
+	{
+		return $this->lastName;
+	}
+	
 	public function getFullNameInJapan(): string
 	{
 		return $this->lastName . ' ' . $this->firstName;
